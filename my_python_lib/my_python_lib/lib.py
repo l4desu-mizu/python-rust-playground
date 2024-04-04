@@ -1,6 +1,9 @@
+import sys
+
 class MyFancyStuff:
 
     def __init__(self, item):
+        print(sys.executable)
         self._item = item
 
     def do_stuff(self):
