@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "my-python-lib"
+version = "0.1.0"
+description = ""
+authors = ["Mizu <5565979+l4desu-mizu@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
