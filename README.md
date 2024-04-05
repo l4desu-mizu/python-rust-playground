@@ -8,3 +8,10 @@
 3. maturin b -m crates/core/Cargo.toml
 4. pip install target/wheels/*.whl
 5. python main.py
+
+if you want to deploy the resulting executable, that can be done with pyinstaller
+
+6. pip install pyinstaller
+7. pyinstaller main.py --hidden-import my_python_lib --hidden-import my_python_lib.lib
+8. ./dist/main/main
+
